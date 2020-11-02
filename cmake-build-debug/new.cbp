@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="new"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/MQ/CLionProjects/new/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/MQ/Desktop/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/MQ/CLionProjects/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/MQ/Desktop/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/MQ/CLionProjects/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/MQ/Desktop/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/MQ/CLionProjects/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/MQ/Desktop/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/MQ/CLionProjects/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="new">
+				<Option output="C:/Users/MQ/CLionProjects/new/cmake-build-debug/new.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/MQ/CLionProjects/new/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/MQ/CLionProjects/new/externel/dirent"/>
+					<Add directory="C:/Users/MQ/CLionProjects/new/externel/glfw/include"/>
+					<Add directory="C:/Users/MQ/CLionProjects/new/externel/glm"/>
+					<Add directory="C:/Users/MQ/CLionProjects/new/externel/glad/include"/>
+					<Add directory="C:/Users/MQ/CLionProjects/new/externel/glad/include/glad"/>
+					<Add directory="C:/Users/MQ/CLionProjects/new/externel/assimp/include"/>
+					<Add directory="C:/Users/MQ/CLionProjects/new/externel/include"/>
+					<Add directory="C:/Users/MQ/CLionProjects/new/headers"/>
+					<Add directory="C:/Users/MQ/Desktop/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/MQ/Desktop/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/MQ/Desktop/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/MQ/Desktop/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/MQ/Desktop/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/MQ/Desktop/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/MQ/Desktop/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/MQ/CLionProjects/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 new"/>
+					<CompileFile command="C:/Users/MQ/Desktop/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/MQ/CLionProjects/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/MQ/Desktop/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/MQ/CLionProjects/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/MQ/Desktop/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/MQ/CLionProjects/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="new/fast">
+				<Option output="C:/Users/MQ/CLionProjects/new/cmake-build-debug/new.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/MQ/CLionProjects/new/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/MQ/CLionProjects/new/externel/dirent"/>
+					<Add directory="C:/Users/MQ/CLionProjects/new/externel/glfw/include"/>
+					<Add directory="C:/Users/MQ/CLionProjects/new/externel/glm"/>
+					<Add directory="C:/Users/MQ/CLionProjects/new/externel/glad/include"/>
+					<Add directory="C:/Users/MQ/CLionProjects/new/externel/glad/include/glad"/>
+					<Add directory="C:/Users/MQ/CLionProjects/new/externel/assimp/include"/>
+					<Add directory="C:/Users/MQ/CLionProjects/new/externel/include"/>
+					<Add directory="C:/Users/MQ/CLionProjects/new/headers"/>
+					<Add directory="C:/Users/MQ/Desktop/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/MQ/Desktop/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/MQ/Desktop/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/MQ/Desktop/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/MQ/Desktop/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/MQ/Desktop/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/MQ/Desktop/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/MQ/CLionProjects/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 new/fast"/>
+					<CompileFile command="C:/Users/MQ/Desktop/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/MQ/CLionProjects/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/MQ/Desktop/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/MQ/CLionProjects/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/MQ/Desktop/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/MQ/CLionProjects/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/MQ/CLionProjects/new/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/MQ/Desktop/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/MQ/CLionProjects/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/MQ/Desktop/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/MQ/CLionProjects/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/MQ/Desktop/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/MQ/CLionProjects/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/MQ/Desktop/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/MQ/CLionProjects/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/MQ/CLionProjects/new/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/MQ/Desktop/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/MQ/CLionProjects/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/MQ/Desktop/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/MQ/CLionProjects/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/MQ/Desktop/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/MQ/CLionProjects/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/MQ/Desktop/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/MQ/CLionProjects/new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/MQ/CLionProjects/new/externel/glad/src/glad.c">
+			<Option target="new"/>
+		</Unit>
+		<Unit filename="C:/Users/MQ/CLionProjects/new/headers/Bound.h">
+			<Option target="new"/>
+		</Unit>
+		<Unit filename="C:/Users/MQ/CLionProjects/new/headers/CheckShader.h">
+			<Option target="new"/>
+		</Unit>
+		<Unit filename="C:/Users/MQ/CLionProjects/new/headers/Mesh.cpp">
+			<Option target="new"/>
+		</Unit>
+		<Unit filename="C:/Users/MQ/CLionProjects/new/headers/Mesh.h">
+			<Option target="new"/>
+		</Unit>
+		<Unit filename="C:/Users/MQ/CLionProjects/new/headers/Model.cpp">
+			<Option target="new"/>
+		</Unit>
+		<Unit filename="C:/Users/MQ/CLionProjects/new/headers/Model.h">
+			<Option target="new"/>
+		</Unit>
+		<Unit filename="C:/Users/MQ/CLionProjects/new/headers/basestructure.h">
+			<Option target="new"/>
+		</Unit>
+		<Unit filename="C:/Users/MQ/CLionProjects/new/headers/calcuateCurvature.h">
+			<Option target="new"/>
+		</Unit>
+		<Unit filename="C:/Users/MQ/CLionProjects/new/headers/logging.h">
+			<Option target="new"/>
+		</Unit>
+		<Unit filename="C:/Users/MQ/CLionProjects/new/headers/stb_image.cpp">
+			<Option target="new"/>
+		</Unit>
+		<Unit filename="C:/Users/MQ/CLionProjects/new/headers/stb_image.h">
+			<Option target="new"/>
+		</Unit>
+		<Unit filename="C:/Users/MQ/CLionProjects/new/newview/IteratorForLight.h">
+			<Option target="new"/>
+		</Unit>
+		<Unit filename="C:/Users/MQ/CLionProjects/new/newview/NewCamera.h">
+			<Option target="new"/>
+		</Unit>
+		<Unit filename="C:/Users/MQ/CLionProjects/new/newview/Rgb2Hsv.h">
+			<Option target="new"/>
+		</Unit>
+		<Unit filename="C:/Users/MQ/CLionProjects/new/newview/WriteImage.h">
+			<Option target="new"/>
+		</Unit>
+		<Unit filename="C:/Users/MQ/CLionProjects/new/newview/newView.cpp">
+			<Option target="new"/>
+		</Unit>
+		<Unit filename="C:/Users/MQ/CLionProjects/new/newview/newView.h">
+			<Option target="new"/>
+		</Unit>
+		<Unit filename="C:/Users/MQ/CLionProjects/new/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
